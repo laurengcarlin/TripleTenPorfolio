@@ -4,7 +4,7 @@ Portfolio of completed projects I worked on while attending the PROGRAM NAME Tri
 | Project number | Title | Description |
 | :-----------: | ----------- |----------- |
 | 1 | [PROJECT NAME](PROJECT DIRECTORY LINK) | DESCRIPTION HERE. |
-| 2 | [PROJECT NAME](PROJECT DIRECTORY LINK) | DESCRIPTION HERE. |
+| 2 | [Airbnb Vacation Rentals](https://github.com/laurengcarlin/TripleTenPorfolio/tree/main/Airbnb%20Vacation%20Rentals) | DESCRIPTION HERE. |
 | 3 | [PROJECT NAME](PROJECT DIRECTORY LINK) | DESCRIPTION HERE. |
 | 4 | [PROJECT NAME](PROJECT DIRECTORY LINK) | DESCRIPTION HERE. |
 | 5 | [PROJECT NAME](PROJECT DIRECTORY LINK) | DESCRIPTION HERE. |
