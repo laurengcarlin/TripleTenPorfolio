@@ -1,17 +1,20 @@
-You’ve been hired as a junior analyst at an e-commerce company to analyze user activity data from raw transaction logs. Each row of data in the "raw_user_activity" tab represents an event by a user on the website, such as product views, cart interactions, or purchases. Your project will focus on building a conversion funnel, preparing data for cohort analysis, calculating retention rates, and presenting results professionally.
+Project Requirements: Superstore Data Visualization Project
+As a consultant for a struggling superstore, your goal is to analyze the store’s operations to identify areas for profitability improvement and reduce losses. This project requires creating visualizations to guide business decisions on profits, advertising, and return rates. The analysis will be evaluated using the provided rubric, focusing on clarity, insights, and actionable recommendations.
 
 Project Steps:
 
-Build a Conversion Funnel
-Using data from the "raw_user_activity" tab, create a 3-stage funnel in a pivot table to analyze how well product views convert into purchases.
-Calculate overall conversion rates and the rates for each funnel stage transition.
-Prepare Data for Cohort Analysis
-Isolate purchase events into a new "purchase_activity" sheet.
-Identify each user’s first purchase date and use it to assign users to monthly acquisition cohorts.
-Create columns for event_month, first_purchase_month, and cohort_age to track users by month.
-Calculate Retention Rates
-Group purchases by cohorts in a new pivot table for "cohort_analysis" and track monthly retention rates.
-In a "retention_rates" sheet, calculate retention percentages for each cohort over time.
-Organize and Document the Spreadsheet
-Fill in the "Executive Summary" with findings on the conversion funnel and retention rates.
-Explain assumptions and methods, reorder sheet tabs for clarity, and format for readability.
+Profits & Losses Analysis
+Determine the two biggest profit centers and two biggest sources of losses using pairs of dimensions (e.g., subcategory + region).
+Identify and visualize products that should no longer be sold based on profitability.
+Recommend three product subcategories to focus on and three to eliminate, justifying with visual evidence.
+Advertising Strategy
+Identify the three best combinations of state and month to advertise in, based on average profit per unit sold.
+Visualize monthly average profit in these states and calculate a recommended ad spend (up to 1/5 of profits) for each combination.
+Returned Items Analysis
+Merge the Returns table with the Orders table to analyze product return rates.
+Create a calculated field for the Returned column where “Yes” = 1 and “null” = 0.
+Visualize:
+Products with the highest return rates.
+Customers with the highest return rates.
+Present a visualization of average profit versus return rate by a chosen dimension (e.g., state, shipping mode, product type) to support recommendations on retaining or discontinuing based on this factor.
+Deliverables: Use clear visualizations to support each answer, organize findings in separate sheets, and provide actionable insights for the superstore’s profitability.
