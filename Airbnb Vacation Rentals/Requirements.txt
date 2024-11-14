@@ -1,8 +1,26 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2761
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww28600\viewh15180\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+Here’s a summary of the project requirements for analyzing the Manhattan vacation rental market:
 
-\f0\fs24 \cf0 Alsls}
+Project Overview
+The client wants guidance on which property types to invest in by analyzing Airbnb data for Manhattan vacation rentals. The goal is to determine the most attractive neighborhoods and property sizes, as well as identify high-revenue listings for potential investment.
+
+Key Questions and Steps
+Identify Attractive Neighborhoods and Property Sizes
+Neighborhoods: Use pivot tables to identify the top 10 neighborhoods for vacation rentals by assessing the number of reviews in the last 12 months as a measure of attractiveness.
+Property Sizes: Analyze property sizes (number of bedrooms) to find the most popular options, noting if certain neighborhoods have preferences for specific property sizes.
+Data Cleaning: Clean the neighborhood column for consistent formatting and empty cells in the bedroom column, creating separate columns for neighborhood_clean and bedrooms_clean.
+Top Neighborhood and Property Type Insights
+Generate a bar chart displaying the number of reviews for the top 10 neighborhoods.
+Use the pivot table to determine property size popularity, specifically identifying the most popular property size in Harlem and other neighborhoods.
+Revenue Analysis for Top Listings
+Revenue Calculation:
+Add a column in the calendar data, revenue_earned, to capture revenue for nights a property was rented (based on adjusted prices). If a property was available (not rented), set revenue to $0.
+Sum revenue for each listing over a 30-day period, then estimate annual revenue by multiplying by 12.
+Top-Earning Listings: Add a top_listing column in the listings data to flag listings that match the criteria for top neighborhoods and property sizes. Use this filter in a pivot table to rank listings by revenue.
+Provide the highest-earning listing’s ID and estimate its annual revenue based on the 30-day revenue.
+Deliverables
+Submit answers to the questions for:
+Three most attractive neighborhoods.
+Three most popular property sizes.
+Most popular property size in Harlem.
+Top-earning listing ID and estimated annual revenue.
+This approach will guide the client in choosing high-potential neighborhoods and property types for investment in Manhattan’s vacation rental market.
